@@ -29,24 +29,34 @@
     background-color: var(--english-violet);
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px var(--raisin-black);
+    text-shadow: 3px 3px 3px var(--raisin-black);
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
 }
 
 .nav li.button:hover {
     color: var(--raisin-black);
     background-color: var(--cool-gray);
-    transition: 1s;
+    transition: 0.5s;
+    text-shadow: none;
 }
 
 .nav li.search {
     background-color: var(--english-violet);
     width: 300px;
     margin-right: 20px;
+    box-shadow: 5px 5px 5px var(--raisin-black);
 }
 
 .nav li.logo {
     border-radius: 100%;
-    width: 50px;
+    width: 60px;
     margin-right: 20px;
+    cursor: default;
+    height: 60px;
+    
 }
 
 .nav li.logo p {
@@ -56,7 +66,9 @@
 
 .nav li.logo:hover {
     background-color: var(--english-violet);
-    transition: 1s;
+    transition: 0.5s;
+    
+    box-shadow: 5px 5px 5px var(--raisin-black);
 }
 
 .nav li.account {

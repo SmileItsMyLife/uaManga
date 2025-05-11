@@ -1,0 +1,10 @@
+@import url("../data/palette.css");
+
+.bubble {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: var(--english-violet-2);
+}
