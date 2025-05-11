@@ -1,0 +1,76 @@
+@import url("../data/palette.css");
+
+/*Navbar->*/
+
+.nav {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    background-color: var(--english-violet-2);
+    height: 80px;
+}
+
+.nav li {
+    height: 50px;
+    display: flex;
+    margin: auto;
+    width: 100px;
+    color: var(--ash-gray);
+    font-size: large;
+    align-items: center;
+    text-align: center;
+}
+
+.nav li p {
+    margin: auto;
+}
+
+.nav li.button {
+    background-color: var(--english-violet);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav li.button:hover {
+    color: var(--raisin-black);
+    background-color: var(--cool-gray);
+    transition: 1s;
+}
+
+.nav li.search {
+    background-color: var(--english-violet);
+    width: 300px;
+    margin-right: 20px;
+}
+
+.nav li.logo {
+    border-radius: 100%;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.nav li.logo p {
+    font-family: 'Brush Script MT', cursive;
+    font-size: xx-large;
+}
+
+.nav li.logo:hover {
+    background-color: var(--english-violet);
+    transition: 1s;
+}
+
+.nav li.account {
+    border-radius: 100%;
+    width: 50px;
+    margin-left: 20px;
+    background-color: var(--english-violet);
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav li{
+        display: none;
+    }
+}
+
+/*<-Navbar*/
